@@ -16,6 +16,8 @@ This ain't your grandma's countdown timer (no offense, grandmas! ❤️). We're 
 * **YOU** set the target date, time, and name. Your countdown, your rules! 🎯
 
 Basically, it makes staring at your browser feel a little more epic and reminds you that *stuff is happening*.
+![image](https://github.com/user-attachments/assets/086d3a02-7289-4d26-81bb-7655595585c9)
+
 
 ## 🌟 Features That Rock 🌟
 
