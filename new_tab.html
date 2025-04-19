@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Count till End</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="rippleCanvas"></canvas>
+  
+  <div class="container">
+    <div class="event-name" id="event-name">Event Name</div>
+    
+    <div class="countdown-container">
+      <div class="time-unit">
+        <div class="time-value" id="years">00</div>
+        <div class="time-label">YEARS</div>
+      </div>
+      <div class="time-unit">
+        <div class="time-value" id="months">00</div>
+        <div class="time-label">MONTHS</div>
+      </div>
+      <div class="time-unit">
+        <div class="time-value" id="days">00</div>
+        <div class="time-label">DAYS</div>
+      </div>
+      <div class="time-unit">
+        <div class="time-value" id="hours">00</div>
+        <div class="time-label">HOURS</div>
+      </div>
+      <div class="time-unit">
+        <div class="time-value" id="minutes">00</div>
+        <div class="time-label">MINUTES</div>
+      </div>
+      <div class="time-unit">
+        <div class="time-value" id="seconds">00</div>
+        <div class="time-label">SECONDS</div>
+      </div>
+      <div class="time-unit milliseconds">
+        <div class="time-value" id="milliseconds">000</div>
+        <div class="time-label">MILLISECONDS</div>
+      </div>
+    </div>
+  </div>
+
+  <button id="settings-button" class="settings-button">⚙️</button>
+
+  <div id="settings-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2>Countdown Settings</h2>
+      <div class="form-group">
+        <label for="event-name-input">Event Name:</label>
+        <input type="text" id="event-name-input" placeholder="Enter event name">
+      </div>
+      <div class="form-group">
+        <label for="target-date">Target Date:</label>
+        <input type="date" id="target-date">
+      </div>
+      <div class="form-group">
+        <label for="target-time">Target Time:</label>
+        <input type="time" id="target-time">
+      </div>
+      <button id="save-settings" class="save-button">Save Settings</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> 
